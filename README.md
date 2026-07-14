@@ -73,7 +73,7 @@ python upload_route_gui.py
 mikrotik-routes-uploader/
 ├── upload_route_gui.py      # Основное GUI приложение
 ├── routes_handler.py         # Модуль с логикой загрузки
-├── chatgpt.txt              # Пример файла со списком сетей
+├── ПримерЛиста.txt              # Пример файла со списком сетей
 ├── requirements.txt          # Зависимости Python
 ├── README.md                # Этот файл
 └── LICENSE                  # MIT лицензия
