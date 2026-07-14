@@ -1,0 +1,56 @@
+# Игнорируемые файлы для Git
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+temp/
+.cache/
+
+# Пользовательские конфиги (не загружаем пароли!)
+config.local.json
+.env
+.env.local
+
+# Результаты тестов
+.pytest_cache/
+.coverage
+
+# Локальные загрузки маршрутов (примеры)
+local_*.txt
+test_*.txt
