@@ -56,7 +56,7 @@ class MikroTikUploadApp:
         ttk.Label(main_frame, text="Gateway:").grid(row=4, column=0, sticky=tk.W, pady=5)
         self.entry_gateway = ttk.Entry(main_frame, width=30)
         self.entry_gateway.grid(row=4, column=1, columnspan=2, sticky=(tk.W, tk.E), padx=(10, 0))
-        self.entry_gateway.insert(0, "192.168.27.250")
+        self.entry_gateway.insert(0, "")
         
         # Comment
         ttk.Label(main_frame, text="Comment:").grid(row=5, column=0, sticky=tk.W, pady=5)
